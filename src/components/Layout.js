@@ -35,10 +35,10 @@ export default class BaseLayout extends Component {
       height: '30vw',
       color: '#fff',
       backgroundImage: 'url(http://www.joysthaifood.com/wp-content/uploads/2016/03/Thai-fish-Lemon-Soup.jpg)',
-      backgroundSize: "cover",
-      "backgroundPosition": "center",
-      boxShadow: "1px 17px 5px 0px rgba(0, 0, 0, 0.75)",
-      fontFamily: "decorative"
+      backgroundSize: 'cover',
+      "backgroundPosition": 'center',
+      boxShadow: '1px 17px 5px 0px rgba(0, 0, 0, 0.75)',
+      fontFamily: 'decorative'
     }
     return (
       <div className="container-fluid nav">
