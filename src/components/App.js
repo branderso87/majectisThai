@@ -41,7 +41,7 @@ componentDidMount () {
   })
 }
 
-  render() {
+  render () {
     // Your render should consist of the BaseLayout with the following children components: Appetizers, Entrees, and Dessert.
     // Each component needs to receive state via props.
     return (
@@ -51,6 +51,7 @@ componentDidMount () {
           <Entrees items={this.state.entrees}/>
           <Desserts items={this.state.desserts}/>
         </BaseLayout>
+        // set state so you can push props to Appetizers, Desserts, & Entrees
     )
   }
 }
